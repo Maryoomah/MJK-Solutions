@@ -2,7 +2,6 @@ import "./App.css";
 
 import {  Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
-import { HashRouter } from 'react-router-dom'
 
 
 import AOS from "aos";
@@ -23,7 +22,6 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -32,7 +30,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </HashRouter>
   );
 }
 
