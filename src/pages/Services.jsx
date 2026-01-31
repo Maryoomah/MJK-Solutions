@@ -71,8 +71,7 @@ function Services() {
   <div className="text-center">
     <p className="uppercase text-sm tracking-widest text-white/70">Why Choose Us</p>
     <h2 className="mt-3 text-2xl font-bold md:text-3xl">
-      More than delivery — real partnership
-    </h2>
+Real Partnership Beyond Delivery    </h2>
     <p className="mx-auto mt-4 max-w-2xl text-white/80">
       We combine clarity, structure, and care to create solutions that don’t just
       look good — they actually work for your business and your learners.
