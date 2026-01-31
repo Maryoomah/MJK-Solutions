@@ -1,7 +1,6 @@
 import Button from "../components/Button";
 import Strip from "../components/Strip";
-import Footer from "../components/footer";
-
+import Footer from "../components/Footer";
 function Home() {
   return (
     <main className="min-h-screen bg-green-900 text-white">

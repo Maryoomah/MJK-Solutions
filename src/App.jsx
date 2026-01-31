@@ -12,6 +12,8 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { HashRouter } from "react-router-dom";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -22,13 +24,16 @@ function App() {
   }, []);
 
   return (
+  <HashRouter>
+              <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes>   
+      </HashRouter>
   );
 }
 
